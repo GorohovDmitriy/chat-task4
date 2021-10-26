@@ -7,6 +7,8 @@
 - `firebase`
 - `react-firebase-hooks`
 - `react-router-dom`
+- `material-ui`
+- `react-icons`
 
 ---
 
