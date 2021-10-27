@@ -1,5 +1,11 @@
 ### Web приложение которое позволяет пользователям аутентифицироваться через соцсети
 
+---
+
+### Hosting
+
+- [Ссылка на проект](https://chat-react-f7e6b.web.app)
+
 [Database](https://firebase.google.com/?gclid=CjwKCAjwzt6LBhBeEiwAbPGOgfiWv3zHQHLefmYRawBZ9pyT-R0Z1Nh1T3Z6JxB727DgxGbvn5yjexoC30AQAvD_BwE&gclsrc=aw.ds)
 
 ### Libraries used
