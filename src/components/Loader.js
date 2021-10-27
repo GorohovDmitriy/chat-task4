@@ -1,5 +1,6 @@
 import { Container, Grid } from '@material-ui/core'
 import React from 'react'
+import '../App.css'
 
 const Loader = () => {
 	return (
@@ -15,7 +16,7 @@ const Loader = () => {
 					direction={'column'}
 					alignItems={'center'}
 				>
-
+					<div className="lds-hourglass"></div>
 				</Grid>
 			</Grid>
 		</Container>

@@ -9,23 +9,29 @@ const Navbar = () => {
 	const { auth } = useContext(Context)
 	const [user] = useAuthState(auth)
 
-	// const user = false
 	const signOut = () => {
 		if (window.confirm('Вы действительно хотите выйти ???')) {
 			auth.signOut()
 		}
-
 	}
 
 	return (
 		<AppBar color={'inherit'} position='static'>
-			<Toolbar variant={'dense'} >
+			<Toolbar color={'#1de9b6'}>
 				<Grid container justifyContent={'flex-end'}>
 					{user ? (
-						<Button onClick={signOut} variant={'outlined'}>Выйти</Button>
+						<Button
+							style={{ backgroundColor: '#1de9b6', color: '#fff' }}
+							onClick={signOut}
+							variant={'outlined'}
+						>
+							Выйти
+						</Button>
 					) : (
-						<NavLink to={LOGIN_ROUTE}>
-							<Button variant={'outlined'}>Логин</Button>
+						<NavLink style={{ textDecoration: 'none' }} to={LOGIN_ROUTE}>
+							<Button style={{ backgroundColor: '#1de9b6', color: '#fff' }} variant={'outlined'}>
+								Логин
+							</Button>
 						</NavLink>
 					)}
 				</Grid>
